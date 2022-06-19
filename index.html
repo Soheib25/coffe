@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> مقهى الأصدقاء </title>
+  <link rel="icon" href="image/logo.jpg"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+<style>
+  body{
+    background-color: rgba(80, 13, 13, 0.76);
+  }
+  #image{
+ max-height: 300px;
+ object-fit: cover;
+  }
+  main{
+  margin: auto;
+  max-width: 100%;
+  max-height: fit-content;
+  text-align: right;
+  }
+  .card{
+
+    -webkit-box-shadow:0 0px 0px 0 rgba(0,0,0,0.16), 0 0px 0px 0 rgba(0,0,0,0.12) !important;
+    box-shadow:0 0px 0px 0 rgba(0,0,0,0.16), 0 0px 0px 0 rgba(0,0,0,0.12) !important;
+
+  }
+  #img{
+    max-height: 200px;
+    max-width: 400px;
+    object-fit: cover;
+  }
+  
+</style>
+</head>
+<body dir="rtl">
+
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/image3.jpg" class="d-block w-100" id="image" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="image/image2.jpg" class="d-block w-100" id="image" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="image/image1.jpg" class="d-block w-100" id="image" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">السابق</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">التالي</span>
+      </button>
+    </div>
+  </header> 
+  <main>
+    <div class="card" style="width: 30%; height: 300px;margin: 20px;float: left;">
+      <img src="image/image4.jpg" id="img" class="card-img-top" alt="...">
+      <div class="card-body" style="text-align: center;" >
+        <h3 >قهوة</h3>
+        <p class="card-text">السعر: 40 دينار</p>
+      </div>
+    </div>
+    <div class="card" style="width: 30%;height: 300px ;margin: 20px;float: left;">
+      <img src="image/image8.jpg" id="img" class="card-img-top" alt="...">
+      <div class="card-body" style="text-align: center;">
+        <h3>عصير الفواكه</h3>
+        <p class="card-text"> السعر: 50 دينار</p>
+      </div>
+    </div>
+    <div class="card" style="width: 30%;height: 300px;margin: 20px; float: left;">
+      <img src="image/image7.jpg" id="img" class="card-img-top" alt="...">
+      <div class="card-body" style="text-align: center;">
+        <h3> الشاي</h3>
+        <p class="card-text">السعر: 30 دينار</p>
+      </div>
+    </div>
+    <div class="card" style="width: 30%;height: 300px;margin: 20px; float: left;">
+      <img src="image/image9.jpg" id="img" class="card-img-top" alt="...">
+      <div class="card-body" style="text-align: center;">
+        <h3>مشروبات غازية</h3>
+        <p class="card-text">السعر: 50 دينار</p>
+      </div>
+    </div>
+    <div class="card" style="width: 30%;height: 300px;margin:20px ; float: left;">
+      <img src="image/image6.jpg" id="img" class="card-img-top" alt="">
+      <div class="card-body" style="text-align: center;">
+       <h3>حلويات</h3>
+       <p> السعر: 35 دينار</p>
+      </div>
+    </div>
+    <div class="card" style="width: 30%;height: 300px;margin: 20px ; float: left;">
+      <img src="image/image5.jpg" id="img" class="card-img-top" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h3>كرواسون</h3>
+        <p> السعر : 20 دينار</p>
+      </div>
+    </div>
+  </main>
+  <footer style="border-top: 4px solid rgba(255, 15, 15, 0.76);">
+    <article  style="margin: auto; max-width: 800px; padding-top: 10px;">
+      <div class="card card-cascade wider reverse" style="max-width: 800px;">
+        <div class="view view-cascade overlay">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3213.7111850983915!2d6.582307214883145!3d36.343548980045114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f177536f21989d%3A0xcb91aafea315f73d!2sCafe%20Des%20Amis!5e0!3m2!1sfr!2sdz!4v1655582201229!5m2!1sfr!2sdz" width="800" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      <div class="card-body card-body-cascade text-center">
+        <h4 class="card-title"><strong>موقع مقهى الأصدقاء </strong></h4>
+      </div>
+       </div>
+       <div class="footer-copyright text-center py-3" style="border-top: 3px solid rgba(80, 13, 13, 0.76); color: bisque;">© 2022 Copyright:
+        <a href="#" class="btn " style="font-weight: bold; background-color:rgba(80, 13, 13, 0.76) ; color: bisque;" > مقهى الأصدقاء</a>
+      </div>
+      </article>
+      </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
